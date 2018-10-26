@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"-->
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="1dp"
+        android:id="@+id/cardView"
+        android:layout_gravity="center_vertical"
+        card_view:cardUseCompatPadding="false"
+        card_view:cardElevation="1dp"
+        app:cardElevation="@dimen/activity_vertical_margin"
+        >
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="wrap_content">
+
+        <pro.novatechsolutions.mountainoftestimony.ui.utils.SquareImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/thumbnail"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_play_circle_outline_black_24dp"
+            android:alpha="0.9"
+            android:id="@+id/play_button"/>
+
+
+    </RelativeLayout>
+
+        <!--
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content">
+
+                <pro.novatechsolutions.mountainoftestimony.ui.utils.SquareImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/thumbnail"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_play_circle_outline_black_24dp"
+                    android:alpha="7"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/duration" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        -->
+
+
+
+    </android.support.v7.widget.CardView>
+
+<!--/LinearLayout-->

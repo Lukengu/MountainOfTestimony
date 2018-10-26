@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mountain of Testimony</string>
+    <string name="title_home">Home</string>
+    <string name="title_videos">Videos</string>
+    <string name="title_events">Events</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="facebook_app_id">177815902919988</string>
+    <string name="all_videos">Video Libary</string>
+    <string name="nbr_videos">(%1$d)  Videos</string>
+    <string name="week_plan">This Week Plan</string>
+    <string name="welcome">Welcome</string>
+    <string name="next_event">Next Event(s)</string>
+    <string name="latest_video">Latest Videos</string>
+    <string name="prayer_request">Prayer Request</string>
+    <string name="upcoming">UpComing Events</string>
+
+    <string name="welcome_message"><![CDATA[<p style="text-align:center"> <b> Welcome!</b> <br />   We are  <b> The Mountain of Testimony and Ladder of Visitation <br /> Bethel Church </b>.<br /> Our Mission is to  set the captives free through the word of God. <br /> Remmain Blessed!</p>]]></string>
+
+</resources>
